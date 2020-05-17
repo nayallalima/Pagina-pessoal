@@ -1,0 +1,138 @@
+/* geral */
+
+*
+{
+    box-sizing: border-box;
+
+}
+
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ /* faz o reset do rem */
+html{
+    font-size: 10px;
+}
+
+/* layout */
+.container{
+    max-width: 1080px;
+    margin: 0 auto;
+    margin-top: 5rem;
+}
+a {
+    text-decoration: none;
+}
+
+h3 {
+    font-size: 2.5rem;
+}
+
+p{
+    font-size: 1.6rem;
+}
+.banner{
+    background-image: url(../img/forcaferminina.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+    color: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 650px;
+    text-shadow: 1px 1px 2px black;
+    }
+.banner__titulo{
+    font-size: 40px;
+}    
+.banner__subtitulo{
+    font-size: 24px;
+}
+
+/* Botões*/
+
+.btn {
+    border-radius: 3rem;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.btn-branco {
+    color: #7e459b;
+    background-color: white;
+}
+
+.btn-roxo {
+    color: #7e459b;
+    border: 1px solid #7e459b;
+}
+
+/*SEÇÃO SOBRE*/
+
+.sobre{
+    display: flex;
+    justify-content: space-around;
+}
+
+.sobre__titulo {
+    font-size: 4rem;
+    color: purple;
+}
+
+.sobre-descricao, .sobre-habilidades {
+    width: 40%;
+    display: inline-block;
+    line-height: 1.5;
+}
+
+.sobre-descricao__destaque,.sobre-descricao__texto {
+    font-size: 2rem;
+    color: rebeccapurple;
+    
+}
+.sobre-descricao__texto{
+    font-style: italic;
+}
+
+.sobre-habilidades__titulo{
+    text-align: center;
+    font-size: 4rem;
+    color: purple;
+}
+.sobre-habilidades {
+    margin-left: 10rem;
+}
+
+.sobre-habilidades__lista {
+    padding-left: 2rem;
+    line-height: 2;
+    font-size: 2rem;
+    color: rebeccapurple;
+    list-style-type: circle ; 
+}
+
+/*redes sociais*/
+.redes-sociais{
+    margin-left: 250px;
+    margin-bottom: 20px;
+}
+.redes-sociais__link {
+    display: inline-block;
+    width: 23%;
+    background-color: #7E459B;
+    padding: 2rem;
+    margin: 0 1rem;
+    text-align: center;
+    color: white;
+    border-radius: 3rem;
+    }
+
+.redes-sociais__img, .redes-sociais__titulo {
+    margin-bottom: 0.5rem;
+    
+}
